@@ -1,0 +1,205 @@
+<!--
+# html / CSS
+# <div class="box"> 박스 </div>
+# <a href="google.com">구글</a>
+# 1. <div></div>는 태크라고 하고 항상 열림/닫힘 한쌍임.
+# 2. class="box" 은 속성이라고 하며, 이 class 속성을 이용해서 나중에 CSS로 스타일링을 할수 있음
+# 3. 합쳐서 "엘레먼트"라고 불림
+# .box{
+#	width: 100px;
+#	height: 100px;
+#	border: 1px solid black;
+# }
+# 1. CSS는 HTML 엘레먼트의 스타일링을 하기 위해 사용
+# 2. .box 는 class="box" 속성을 가진 엘레먼트를 스타일 하고 싶다고 명시하는것.
+# 3. width, height, border 같은 규칙을 써서 엘레먼트의 모양 및 위치를 바꿈
+#   (가로길이)(세로길이)(테두리)
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      body {
+        margin: 0;
+      }
+      .nav {
+        height: 70px;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: center;
+      }
+
+      .nav-right-items {
+        display: flex;
+        margin-left: auto;
+      }
+
+      .nav-item {
+        margin-left: 10px;
+      }
+
+      .company-name {
+        margin-left: 20px;
+      }
+
+      .title {
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: bold;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 300;
+      }
+
+      .main {
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 60px;
+      }
+
+      .prices {
+        display: flex;
+      }
+
+      .price-item {
+        width: 300px;
+        height: 350px;
+        border: 1px solid black;
+        margin: 20px;
+        border-radius: 4px;
+        text-align: center;
+      }
+
+      .price-item-title {
+        font-size: 1.5rem;
+        background: rgba(0,0,0,.03);
+        height: 53px;
+        line-height: 53px;
+        border-bottom: 1px solid black;
+      }
+
+      .price-item-price {
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding: 20px;
+      }
+
+      .price-item-button {
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: .3rem;
+        color: #007bff;
+        background-color: transparent;
+        background-image: none;
+        border-color: #007bff;
+        margin-top: 30px;
+      }
+
+      .price-item-button--active {
+        background-color: #007bff;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="company-name">
+        플렉시블
+      </div>
+      <div class="nav-right-items">
+        <div class="nav-item">구글</div>
+        <div class="nav-item">네이버</div>
+        <div class="nav-item">깃허브</div>
+        <div class="nav-item">도커</div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="title">
+        Pricing
+      </div>
+      <div class="subtitle">
+        Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.
+      </div>
+      <div class="prices">
+        <div class="price-item">
+          <div class="price-item-title">
+            Free
+          </div>
+          <div class="price-item-price">
+            $0 / mo
+          </div>
+          <div class="price-item-detail">
+            10 users included
+          </div>
+           <div class="price-item-detail">
+            2 GB of storage
+          </div>
+           <div class="price-item-detail">
+            Email support
+          </div>
+           <div class="price-item-detail">
+            Help center access
+          </div>
+          <button class="price-item-button">
+            Sign up for free
+          </button>
+        </div>
+       <div class="price-item">
+          <div class="price-item-title">
+            Pro
+          </div>
+          <div class="price-item-price">
+            $15 / mo
+          </div>
+          <div class="price-item-detail">
+            20 users included
+          </div>
+          <div class="price-item-detail">
+            10 GB of storage
+          </div>
+          <div class="price-item-detail">
+            Priority email support
+          </div>
+          <div class="price-item-detail">
+            Help center access
+          </div>
+          <button class="price-item-button price-item-button--active">
+            Get started
+          </button>
+        </div>
+        <div class="price-item">
+          <div class="price-item-title">
+            Enterprise
+          </div>
+          <div class="price-item-price">
+            $29 / mo
+          </div>
+          <div class="price-item-detail">
+            30 users included
+          </div>
+          <div class="price-item-detail">
+            15 GB of storage
+          </div>
+          <div class="price-item-detail">
+            Phone and email support
+          </div>
+          <div class="price-item-detail">
+            Help center access
+          </div>
+          <button class="price-item-button price-item-button--active">
+            Contact us
+          </button>
+        </div>
+      </dev>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
