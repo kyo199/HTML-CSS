@@ -1,0 +1,141 @@
+<!--
+<html>
+  <head>
+    <title>플러버</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="description" content="플러버 문서">
+  </head>
+  <body>
+    <div class="item">메롱</div>
+  </body>
+</html>
+
+<html>
+  <head>
+    <title>플러버</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="description" content="플러버 문서">
+  </head>
+  <body>
+    <!--  텍스트 관련 태그  -->
+	<!-- heading tag -->
+	<h1>안녕하세요</h1>
+    <h2>안녕하세요</h2>
+    <h3>안녕하세요</h3>
+    <h4>안녕하세요</h4>
+    <h5>안녕하세요</h5>
+    <h6>안녕하세요</h6>
+    <b> 굵은 글씨 </b>
+    <i> 기울어진 글씨 </i>
+    <p> 이것은 문단 Tag </p>
+
+    <!-- 미디어 관련 태그 -->
+    <img src="https://i.imgur.com/CylgwLr.png" />
+    <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls/>
+
+    <!-- 링크 태그 -->
+    <a href="google.com">구글</a>
+    <a href="facebook.com" target="_blank">페이스북</a>
+	<!-- _blank tag를 사용하면 새창으로 열림. -->
+	
+	<!-- Table tag -->
+    <table border="1">
+      <thead>
+        <tr>
+          <th> 이름 </th>
+          <th> 나이 </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th> 클린 </th>
+          <th> 10 </th>
+        </tr>
+      </tbody>
+    </table>
+	
+	<!-- 목록 Tag -->
+    <ol>
+      <li> 돼지 </li>
+      <li> 염소 </li>
+    </ol>
+
+    <ul>
+      <li> 돼지 </li>
+      <li> 염소 </li>
+    </ul>
+  </body>
+</html>
+
+<html>
+  <head>
+    <title>플러버</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="description" content="플러버 문서">
+    <style>
+      .top {
+        background: red;
+        height: 100px;
+      }
+      .mid {
+        background: blue;
+        height: 100px;
+      }
+      .bot {
+        background: green;
+        height: 100px;
+      }
+       .like {
+        background: yellow;
+      }
+       .sub {
+        background: orange;
+      }
+       .comment {
+        background: pink;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!-- 구역을 나누는 Tag 
+    <div> 는 한줄 전체 공간을 차지
+    <span> 은 자기 내용물 만큼의 공간만 차지    
+    -->
+    <div class="top">상단</div>
+    <div class="mid">중단</div>
+    <div class="bot">하단</div>
+
+    <span class="like"> 좋아요 </span>
+    <span class="sub"> 구독 </span>
+    <span class="comment"> 댓글 </span>
+  </body>
+</html>
+
+
+<html>
+  <head>
+    <title>플러버</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="description" content="플러버 문서">
+  </head>
+  <body>
+    <!-- 인풋 Tag -->
+    텍스트 <input type="text" />
+    체크박스 <input type="checkbox" />
+    라디오 <input type="radio" />
+    색깔 <input type="color" />
+    여러 문장 <textarea></textarea>
+    드랍 다운
+    <select name="name">
+      <option value="워터">워터</option>
+      <option value="제니">제니</option>
+    </select>
+    <form>
+      <input type="email" placeholder="이메일" />
+      <input type="password" placeholder="비밀번호" />
+      <button type="submit">로그인</button>
+    </form>
+  </body>
+</html>
+-->
